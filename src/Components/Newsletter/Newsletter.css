@@ -1,0 +1,40 @@
+.newsletter {
+    width: 100vw;
+    padding: 3rem 0rem;
+    background: var(--light);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.newsletter__input {
+    width: 30rem;
+    position: relative;
+}
+
+.newsletter__input .input {
+    width: 100%;
+    padding: 1rem 2rem; /* Adjust padding to make room for the icon */
+    font-size: 1.4rem;
+    border: .2rem solid #ccc;
+    border-radius: .5rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+.newsletter__input .input:focus {
+    border-color: #007bff;
+  }
+  
+.newsletter__input .icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 2rem;
+    color: #888;
+}

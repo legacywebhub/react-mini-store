@@ -1,0 +1,10 @@
+.title {
+    font-family: 'NotoSans';
+    font-size: 2rem;
+    font-weight: weight;
+    background: var(--yellow);
+    color: var(--text-color);
+    width: 100vw;
+    text-align: center;
+    padding: 2rem 0rem;
+}

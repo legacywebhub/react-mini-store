@@ -1,0 +1,44 @@
+.header__top {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.logo img {
+    width: 10rem;
+}
+
+.logo .F {
+    width: 3rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu .search {
+    position: relative;
+}
+
+.menu .search__input {
+    background: transparent;
+    padding: .5rem 1rem;
+    border-radius: .5rem
+}
+
+.menu .search__icon {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: .7rem;
+}

@@ -1,0 +1,33 @@
+.banner {
+    font-family: 'NotoSans';
+    min-height: 35rem;
+    padding: 5rem;
+    background: linear-gradient(90deg, #0077B6 32.59%, rgba(165, 201, 234, 0) 98.22%),
+    url('../../Assets/Images/banner.png') center no-repeat fixed;
+    background-size: cover;
+    color: var(--light);
+    text-align: left;
+}
+
+.banner__header {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: .5rem;
+    line-height: 4rem;
+}
+
+.banner__description {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    line-height: 2.5rem;
+
+}
+
+
+@media (max-width: 42rem) {
+    .banner {
+        padding: 2rem 1rem;
+    }
+}
